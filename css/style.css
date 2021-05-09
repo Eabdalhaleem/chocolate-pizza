@@ -16,12 +16,30 @@ body{
 .icone img {
    
    float: right;
+   margin: 1px;
 
 }
+#photo{
+    margin-top: 40px;
 
-#pre{
- 
 }
+#print{
+    float: right;
+}
+
+#yumy{
+    width: 200px;
+    
+}
+#yumy h3{
+    width: 40px;
+    float: right;
+
+}
+/* #yumy p{
+   
+    float: right;
+} */
 #empty {
     background-image: url(../img/hr-img.png);
     width: 100%;
@@ -35,6 +53,74 @@ main img {
     width: 100%;
     
 }
-button{
-    color: rgb(224, 83, 28);
+#line8{
+text-decoration: line-through;
+}
+#line9{
+    text-decoration: line-through;
+}
+#list{
+    background-image: url(../img/list-bg.png);
+    width: 930px;
+    height: 150px;
+}
+#form1{
+    float: left;
+   margin-left: 50px;
+}
+#form2{
+    float: right;
+    margin-right: 50px;
+}
+
+
+
+
+
+button {
+        background-color:rgb(119, 9, 9);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        margin-top: 20px;
+        float: right;
+    }
+footer p {
+    display: inline;
+    /* float: right; */
+    text-align: left;
+}
+
+hr:before,
+hr:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #D7D7D7;
+    height: 2px;
+    top: 8px;
+}
+hr { 
+    background: url('../img/small-logo.png') no-repeat top center;
+    background-size: contain;
+    display: block;
+    height: 30px;
+    border: 0;
+    position: relative;
+    margin-top: 60px;
+}
+hr:before {
+    left: 0;
+    right: 50%;
+    margin-right: 20px;
+}
+hr:after {
+    right: 0;
+    left: 50%;
+    margin-left: 20px;
 }
